@@ -1,8 +1,0 @@
-Results summary (one-step-ahead expanding-window forecasts):
-
-Canada: LASSO has the lowest RMSE (0.003006).
-United States: Benchmark AR(1) has the lowest RMSE (0.002613).
-
-Interpretation:
-- For Canada, adding predictors with regularization improves short-run inflation forecasting.
-- For the US, inflation persistence alone remains the strongest short-run predictor in this setup.
