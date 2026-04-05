@@ -1,0 +1,4 @@
+metric,start_date,end_date,n_obs_canada,n_obs_us
+canada_model_full_sample,2004-03-01,2026-02-01,264,NA
+us_model_full_sample,2004-03-01,2026-01-01,NA,260
+common_window,2004-03-01,2026-01-01,263,260

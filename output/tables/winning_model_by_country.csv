@@ -1,0 +1,3 @@
+country,winner_model,winner_rmse,winner_mae
+Canada,LASSO,0.00300629334998409,0.00220997396712439
+United States,Benchmark AR(1),0.00261294163930368,0.0018623466657746

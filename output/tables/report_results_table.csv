@@ -1,0 +1,7 @@
+country,model_label,mae,rmse,rmse_rank
+Canada,LASSO,0.00221,0.003006,1
+Canada,Benchmark AR(1),0.002284,0.003059,2
+Canada,Multivariate OLS,0.002256,0.00308,3
+United States,Benchmark AR(1),0.001862,0.002613,1
+United States,LASSO,0.002013,0.002817,2
+United States,Multivariate OLS,0.002097,0.003019,3

@@ -1,0 +1,13 @@
+country,variable,adf_p_value,kpss_p_value
+Canada,infl,0.01,0.07202413716188413
+Canada,gdp_can_l1,0.01,0.1
+Canada,unemp_can_l1,0.09262503873622499,0.1
+Canada,ippi_can_l1,0.01,0.1
+Canada,oil_wti_l1,0.01,0.1
+Canada,exrate_can_l1,0.01,0.1
+United States,infl,0.01,0.1
+United States,gdp_us_l1,0.01,0.1
+United States,u6_us_l1,0.5076516884990342,0.01
+United States,ppi_us_l1,0.024190817647410823,0.1
+United States,oil_wti_l1,0.01,0.1
+United States,mxp_us_l1,0.01,0.1

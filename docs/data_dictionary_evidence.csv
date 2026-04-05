@@ -1,0 +1,12 @@
+series_id,file_name,unit,transformation,notes,unit_confidence,transformation_confidence,assumption_flag,evidence_cols
+cpi_can,cpi_canada_t.csv,Index level,Target: inflation_t = log(CPI_t) - log(CPI_t-1),Headline CPI SA; transformed inflation is forecast target.,high,high,ok,"REF_DATE, VALUE"
+cpi_us,cpi_usa.csv,Index level,Target: inflation_t = log(CPI_t) - log(CPI_t-1),Headline CPI SA; transformed inflation is forecast target.,high,high,ok,"observation_date, CPIAUCSL"
+oil_wti,crude_oil.csv,USD per barrel,Predictor: monthly log-difference,Global energy shock control variable.,high,medium,ok,"observation_date, MCOILWTICO"
+u6_us,labour_usa.csv,Percent/rate,Predictor: first difference in rate (or level if stationary),Labour slack measure; check stationarity before final form.,low,medium,ok,"observation_date, U6RATE"
+ppi_us,ppi_usa (2).csv,Index level,Predictor: monthly log-difference,Upstream cost pressure proxy.,high,medium,ok,"observation_date, WPSFD49208"
+mxp_us,mxp_usa.csv,Index level,Predictor: monthly log-difference,Imported inflation/pass-through channel.,high,medium,ok,"Label, Value"
+exrate_can,can_exchange_rate.csv,Index (broad basket),Predictor: monthly log-difference,Imported inflation/pass-through channel.,medium,medium,needs manual source verification,"TIME_PERIOD:Period, OBS_VALUE:Value"
+gdp_can,real_gdp_canada_t.csv,Millions of chained dollars,Predictor: monthly log-difference,Confirm whether series is level each update; keep monthly frequency.,medium,medium,needs manual source verification,"REF_DATE, VALUE"
+gdp_us,real_gdp_usa.csv,Percent/rate,"Use as provided (already growth/rate), then lag",BBKMGDP appears rate-like; avoid double differencing.,high,medium,needs manual source verification,"observation_date, BBKMGDP"
+ippi_can,ippi_can.xlsx,Index level,Predictor: monthly log-difference,Upstream cost pressure proxy.,medium,medium,needs manual source verification,"REF_DATE, VALUE"
+unemp_can,labour_canada_t.xlsx,Percent/rate,Predictor: first difference in rate (or level if stationary),Labour slack measure; check stationarity before final form.,medium,medium,needs manual source verification,"REF_DATE, VALUE"

@@ -1,0 +1,7 @@
+country,model,mae,rmse,rmse_gain_vs_benchmark_pct,mae_gain_vs_benchmark_pct,source,model_label,rmse_rank
+Canada,lasso,0.00220997396712439,0.00300629334998409,1.7271603077847912,3.255735517768182,lasso_model,LASSO,1
+Canada,benchmark_ar1,0.00228434623897551,0.00305912941907411,0,0,baseline_model,Benchmark AR(1),2
+Canada,multivariate_lm,0.0022557544866062,0.00307977836579881,-0.6749942188113819,1.2516382972720588,baseline_model,Multivariate OLS,3
+United States,benchmark_ar1,0.0018623466657746,0.00261294163930368,0,0,baseline_model,Benchmark AR(1),1
+United States,lasso,0.00201333441702309,0.0028171673490528,-7.815930776147671,-8.107392357356192,lasso_model,LASSO,2
+United States,multivariate_lm,0.00209663723686169,0.00301884124418432,-15.534200947128786,-12.580395228921184,baseline_model,Multivariate OLS,3

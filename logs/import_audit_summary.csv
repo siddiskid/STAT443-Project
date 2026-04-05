@@ -1,0 +1,12 @@
+"series","file_name","n_rows","n_date_na","n_value_na","date_min","date_max","duplicate_months"
+"can_exchange_rate","can_exchange_rate.csv",267,0,0,"2003-12-01","2026-02-01",0
+"cpi_canada_t","cpi_canada_t.csv",266,0,0,"2004-01-01","2026-02-01",0
+"cpi_usa","cpi_usa.csv",266,0,1,"2004-01-01","2026-02-01",0
+"crude_oil","crude_oil.csv",267,0,0,"2004-01-01","2026-03-01",0
+"ippi_can","ippi_can.xlsx",266,0,0,"2004-01-01","2026-02-01",0
+"labour_canada_t","labour_canada_t.xlsx",266,0,0,"2004-01-01","2026-02-01",0
+"labour_usa","labour_usa.csv",266,0,1,"2004-01-01","2026-02-01",0
+"mxp_usa","mxp_usa.csv",265,0,0,"2004-01-01","2026-02-01",0
+"ppi_usa (2)","ppi_usa (2).csv",266,0,0,"2004-01-01","2026-02-01",0
+"real_gdp_canada_t","real_gdp_canada_t.csv",265,0,0,"2004-01-01","2026-01-01",0
+"real_gdp_usa","real_gdp_usa.csv",264,0,0,"2004-01-01","2025-12-01",0
