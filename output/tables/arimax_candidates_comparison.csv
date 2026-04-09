@@ -1,0 +1,53 @@
+Country,Specification,Holdout_RMSE
+Canada,ippi_can_l1 + unemp_can_l1 + exrate_can_l1,0.001732667558147075
+Canada,oil_wti_l1 + unemp_can_l1 + exrate_can_l1,0.001738796869656157
+Canada,ippi_can_l1 + unemp_can_l1,0.0017466606737578374
+Canada,oil_wti_l1 + gdp_can_l1 + unemp_can_l1,0.0017559417447615274
+Canada,oil_wti_l1 + unemp_can_l1,0.0017626907052033778
+Canada,oil_wti_l1 + ippi_can_l1 + gdp_can_l1,0.0017864826530236374
+Canada,oil_wti_l1 + ippi_can_l1,0.0017876545647865058
+Canada,oil_wti_l1 + ippi_can_l1 + unemp_can_l1,0.0017930786423763026
+Canada,oil_wti_l1 + ippi_can_l1 + exrate_can_l1,0.0017943920557121679
+Canada,oil_wti_l1 + ippi_can_l1 + gdp_can_l1 + unemp_can_l1 + exrate_can_l1,0.0018227068334102123
+Canada,oil_wti_l1 + gdp_can_l1,0.0018683158081389051
+Canada,oil_wti_l1,0.0018702990417347122
+Canada,gdp_can_l1 + exrate_can_l1,0.0018755858763984453
+Canada,oil_wti_l1 + gdp_can_l1 + exrate_can_l1,0.0018772235078237797
+Canada,gdp_can_l1,0.0018786281664367956
+Canada,gdp_can_l1 + unemp_can_l1 + exrate_can_l1,0.0018788679867571038
+Canada,oil_wti_l1 + exrate_can_l1,0.0018789162079714192
+Canada,ippi_can_l1,0.001883924136267487
+Canada,exrate_can_l1,0.0018864951704870912
+Canada,unemp_can_l1,0.0018914259305695589
+Canada,ippi_can_l1 + gdp_can_l1 + unemp_can_l1,0.0018948699010106736
+Canada,ippi_can_l1 + gdp_can_l1,0.0019124700323223203
+Canada,ippi_can_l1 + exrate_can_l1,0.0019138402278842965
+Canada,gdp_can_l1 + unemp_can_l1,0.0019194192258568553
+Canada,ippi_can_l1 + gdp_can_l1 + exrate_can_l1,0.0019245167153730063
+Canada,unemp_can_l1 + exrate_can_l1,0.0019255724507843922
+United States,u6_us_l1,9.785521500268258e-4
+United States,ppi_us_l1 + u6_us_l1,9.80214841684063e-4
+United States,ppi_us_l1,9.840730829005868e-4
+United States,u6_us_l1 + gdp_us_l1,0.001006707577956005
+United States,gdp_us_l1,0.0010092650575806554
+United States,ppi_us_l1 + u6_us_l1 + gdp_us_l1,0.0010107257061467711
+United States,ppi_us_l1 + gdp_us_l1,0.0010138099465650668
+United States,oil_wti_l1 + ppi_us_l1 + u6_us_l1,0.0010285981670895806
+United States,oil_wti_l1 + u6_us_l1 + gdp_us_l1,0.0010640740252685495
+United States,oil_wti_l1 + u6_us_l1,0.0010733589987573415
+United States,ppi_us_l1 + mxp_us_l1 + gdp_us_l1,0.0010752070933650563
+United States,ppi_us_l1 + mxp_us_l1 + u6_us_l1,0.0010763032030124964
+United States,mxp_us_l1 + u6_us_l1 + gdp_us_l1,0.0010799807344299796
+United States,mxp_us_l1 + u6_us_l1,0.0010811679773553627
+United States,oil_wti_l1 + ppi_us_l1 + mxp_us_l1 + u6_us_l1 + gdp_us_l1,0.0010834841276159625
+United States,oil_wti_l1 + mxp_us_l1 + u6_us_l1,0.0011588665295295872
+United States,oil_wti_l1 + ppi_us_l1 + gdp_us_l1,0.0011615223517528008
+United States,oil_wti_l1 + ppi_us_l1,0.0011666067995489361
+United States,oil_wti_l1 + gdp_us_l1,0.0011722314380233929
+United States,oil_wti_l1,0.0011748858846914083
+United States,ppi_us_l1 + mxp_us_l1,0.001181973054176228
+United States,mxp_us_l1,0.0012159032253832986
+United States,oil_wti_l1 + mxp_us_l1 + gdp_us_l1,0.0012269159620874946
+United States,oil_wti_l1 + ppi_us_l1 + mxp_us_l1,0.0012283920782207702
+United States,oil_wti_l1 + mxp_us_l1,0.0012334948297431413
+United States,mxp_us_l1 + gdp_us_l1,0.0012602664958912024

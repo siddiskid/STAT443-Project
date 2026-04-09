@@ -1,0 +1,3 @@
+Country,Model,Variables,Holdout_RMSE,Training_RMSE
+Canada,ARIMAX,ippi_can_l1 + unemp_can_l1 + exrate_can_l1,0.001732667558147075,0.002762306789245275
+United States,ARIMAX,u6_us_l1,9.785521500268258e-4,0.002773664699678444

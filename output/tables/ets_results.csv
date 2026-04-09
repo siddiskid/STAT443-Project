@@ -1,0 +1,3 @@
+Country,Model,Holdout_RMSE,Training_RMSE
+Canada,Exponential Smoothing (ETS),0.001906758041705818,0.002846252735406713
+United States,Exponential Smoothing (ETS),0.001308881798221377,0.003145981872484946
