@@ -97,13 +97,13 @@ mean_us_train <- mean_insample(train_us)
 
 # Calculate RMSE
 persist_can_rmse_test <- rmse(test_can$infl, persist_can_preds)
-persist_can_rmse_train <- rmse(train_can$infl[-nrow(train_can)], persist_can_train[-1])
+persist_can_rmse_train <- rmse(train_can$infl[-1], persist_can_train[-1])
 
 mean_can_rmse_test <- rmse(test_can$infl, mean_can_preds)
 mean_can_rmse_train <- rmse(train_can$infl, mean_can_train)
 
 persist_us_rmse_test <- rmse(test_us$infl, persist_us_preds)
-persist_us_rmse_train <- rmse(train_us$infl[-nrow(train_us)], persist_us_train[-1])
+persist_us_rmse_train <- rmse(train_us$infl[-1], persist_us_train[-1])
 
 mean_us_rmse_test <- rmse(test_us$infl, mean_us_preds)
 mean_us_rmse_train <- rmse(train_us$infl, mean_us_train)
