@@ -10,6 +10,9 @@ us  <- read_csv("data_processed/us_model_common_window.csv")
 # Keep only complete rows
 can <- can[complete.cases(can), ]
 us  <- us[complete.cases(us), ]
+can <- head(can, -4)
+us <- head(us, -1)
+
 
 # -------------------------
 # 2. Train / holdout split
